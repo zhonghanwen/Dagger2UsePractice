@@ -31,4 +31,6 @@ dependencies {
     compile 'org.glassfish:javax.annotation:10.0-b28'
     //dagger end
 
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
 }
