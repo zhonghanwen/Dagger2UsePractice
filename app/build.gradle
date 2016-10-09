@@ -21,16 +21,15 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-
     //dagger start
     apt 'com.google.dagger:dagger-compiler:2.0'
     compile 'com.google.dagger:dagger:2.0'
     compile 'org.glassfish:javax.annotation:10.0-b28'
     //dagger end
-
     compile 'com.android.support:recyclerview-v7:23.2.0'
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+    compile 'com.facebook.fresco:fresco:0.13.0'
 }
